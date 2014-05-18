@@ -6,8 +6,7 @@
 		<artifactId>yad-delivery-parent</artifactId>
 		<version>1.2.0-SNAPSHOT</version>
 	</parent>
-	
-	<groupId>com.yad.delivery</groupId>
+
 	<artifactId>yad-geolite2</artifactId>
 	<version>1.2.0-RELEASE</version>
 	<description>Fast Maxmind Geolite2 API</description>
@@ -35,7 +34,7 @@
 			<email>pr.kusu@gmail.com</email>
 		</developer>
 	</developers>
-	
+
 	<distributionManagement>
 		<snapshotRepository>
 			<id>yadsnapshots</id>
@@ -53,13 +52,11 @@
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
-			<version>2.3.2</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
-			<version>17.0</version>
 		</dependency>
 	</dependencies>
 
