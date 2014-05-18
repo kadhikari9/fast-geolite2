@@ -7,7 +7,7 @@
 	<version>1.2.0-RELEASE</version>
 	<description>Fast Maxmind Geolite2 API</description>
 	<url>https://bitbucket.org/pr_kusu/fastgeolite2</url>
-	<packaging>jar</packaging>
+	<packaging>pom</packaging>
 	<name>YADGeolite2</name>
 
 	<licenses>
