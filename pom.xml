@@ -28,13 +28,20 @@
 			<name>Kusum Adhikari</name>
 			<email>pr.kusu@gmail.com</email>
 		</developer>
-		
-		<developer>
-			<id>fterrazzoni</id>
-			<name>Frédéric Terrazzoni</name>
-			<email></email>
-		</developer>
 	</developers>
+	
+	<distributionManagement>
+		<snapshotRepository>
+			<id>yadsnapshots</id>
+			<name>YAD Snapshots</name>
+			<url>http://www.fonyad.com:8081/nexus/content/repositories/snapshots</url>
+		</snapshotRepository>
+		<repository>
+			<id>yadreleases</id>
+			<name>YAD Releases</name>
+			<url>http://www.fonyad.com:8081/nexus/content/repositories/releases/</url>
+		</repository>
+	</distributionManagement>
 
 	<dependencies>
 		<dependency>
