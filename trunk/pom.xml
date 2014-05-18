@@ -17,8 +17,9 @@
 		</license>
 	</licenses>
 	<scm>
-		<connection>scm:git:https://bitbucket.org/pr_kusu/fastgeolite2.git</connection>
-		<url>https://bitbucket.org/pr_kusu/fastgeolite2.git</url>
+		<connection>scm:svn:https://fast-geolite2.googlecode.com/svn/trunk/</connection>
+		<developerConnection>scm:svn:https://fast-geolite2.googlecode.com/svn/trunk/</developerConnection>
+		<url>https://fast-geolite2.googlecode.com/svn/trunk/ </url>
 	</scm>
 
 	<developers>
